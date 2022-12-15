@@ -3,15 +3,21 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: steelblue;
+  color: #fff;
 }
 
 .container {
   border: 3px solid steelblue;
-  border-radius: 5px;
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
   line-height: 1.5;
   margin: 0 auto;
   width: 700px;
   height: 200px;
+}
+.container:focus {
+  outline: none;
 }
 
 .title {

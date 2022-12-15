@@ -18,7 +18,7 @@ function App() {
         onChange={textLog}
         className={styles.container}
       ></textarea>
-      <div className="">
+      <div>
         <ReactMarkdown>{text}</ReactMarkdown>
       </div>
     </div>
