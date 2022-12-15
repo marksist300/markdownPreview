@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 3px solid steelblue;
+  border-radius: 5px;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 700px;
+  height: 200px;
+}
+
+.title {
+  text-align: center;
+}
